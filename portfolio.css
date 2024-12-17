@@ -1,0 +1,341 @@
+body {
+    margin: auto;
+    background-color:  rgb(245 245 245);
+}
+
+
+/*header*/
+.navigation {
+    background-color: rgb(203 5 31);
+    padding-right: 15px; padding-left: 0px;
+    font-family:"Bauhaus 93";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color:  rgb(22 0 0);
+    font-size: 20px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(245 245 245);
+}
+
+@media screen and (max-width: 700px) {
+    .navigation {
+      display: flex;
+      flex-wrap: wrap;
+    }
+}
+
+/*main*/
+.main__header {
+    margin: 50px;
+    margin-bottom: 100px;
+    font-family:"Love";
+    font-size: 80px;
+}
+
+.main__container--fotos {
+    border: solid  rgb(22 0 0);
+    background-color:  rgb(22 0 0);
+    color:  rgb(245 245 245);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 3px;
+
+    display: flex;
+}
+.main__overskrift--fotos {
+    font-family: "Bauhaus 93";
+    font-size: 30px;
+}
+.main__brødtekst--fotos {
+    font-family: "myriad pro";
+    font-size: 20px;
+    line-height: 25px;
+}
+.main__image--fotos {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.main__container--visitkort {
+    border: solid rgb(203 5 31);
+    background-color: rgb(203 5 31);
+    color:  rgb(245 245 245);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 3px;
+
+    display: flex;
+}
+.main__overskrift--visitkort {
+    font-family: "Bauhaus 93";
+    font-size: 30px;
+}
+.main__brødtekst--visitkort {
+    font-family: "myriad pro";
+    font-size: 20px;
+    line-height: 25px;
+}
+.main__image--visitkort {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.main__container--appdesign {
+    border: solid  rgb(22 0 0);
+    background-color:  rgb(22 0 0);
+    color:  rgb(245 245 245);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 3px;
+
+    display: flex;
+}
+.main__overskrift--appdesign {
+    font-family: "Bauhaus 93";
+    font-size: 30px;
+}
+.main__brødtekst--appdesign {
+    font-family: "myriad pro";
+    font-size: 20px;
+    line-height: 25px;
+}
+.main__image--appdesign {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.main__container--webdesign {
+    border: solid rgb(203 5 31);
+    background-color: rgb(203 5 31);
+    color:  rgb(245 245 245);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 3px;
+
+    display: flex;
+}
+.main__overskrift--webdesign {
+    font-family: "Bauhaus 93";
+    font-size: 30px;
+}
+.main__brødtekst--webdesign {
+    font-family: "myriad pro";
+    font-size: 20px;
+    line-height: 25px;
+}
+.main__image--webdesign {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.main__container--animation {
+    border: solid  rgb(22 0 0);
+    background-color:  rgb(22 0 0);
+    color:  rgb(245 245 245);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 3px;
+
+    display: flex;
+}
+.main__overskrift--animation {
+    font-family: "Bauhaus 93";
+    font-size: 30px;
+}
+.main__brødtekst--animation {
+    font-family: "myriad pro";
+    font-size: 20px;
+    line-height: 25px;
+}
+.main__image--animation {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.main__container--illustration {
+    border: solid rgb(203 5 31);
+    background-color: rgb(203 5 31);
+    color:  rgb(245 245 245);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 3px;
+
+    display: flex;
+}
+.main__overskrift--illustration {
+    font-family: "Bauhaus 93";
+    font-size: 30px;
+}
+.main__brødtekst--illustration {
+    font-family: "myriad pro";
+    font-size: 20px;
+    line-height: 25px;
+}
+.main__image--illustration {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .main__header {
+        margin: 20px;
+        margin-bottom: 50px;
+        font-family:"Love";
+        font-size: 40px;
+    }
+    .main__container--fotos {
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding-left: 20px;
+    }
+    .main__overskrift--fotos {
+        font-size: 20px;
+    }
+    .main__brødtekst--fotos {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .main__container--visitkort {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 20px;
+      }
+      .main__overskrift--visitkort {
+        font-size: 20px;
+    }
+    .main__brødtekst--visitkort {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+      .main__container--appdesign {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 20px;
+      }
+      .main__overskrift--appdesign {
+        font-size: 20px;
+    }
+    .main__brødtekst--appdesign {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+      .main__container--webdesign {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 20px;
+      }
+      .main__overskrift--webdesign {
+        font-size: 20px;
+    }
+    .main__brødtekst--webdesign {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+      .main__container--animation {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 20px;
+      }
+      .main__overskrift--animation {
+        font-size: 20px;
+    }
+    .main__brødtekst--animation {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+      .main__container--illustration {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 20px;
+      }
+      .main__overskrift--illustration {
+        font-size: 20px;
+    }
+    .main__brødtekst--illustration {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .footer__container {
+        margin-top: 50px;
+    }
+}
+
+
+/*footer*/
+footer {
+    background-color:rgb(203 5 31);
+}
+
+.footer__container {
+    margin-top: 200px;
+    padding: 10px 10px 10px;
+    background-color:rgb(203 5 31);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer__tekst--nav li{
+    list-style: none;
+    padding-right: 7px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bauhaus 93";
+}
+.footer__tekst--nav li:hover {
+    background-color:  rgb(245 245 245);
+}
+
+.footer__tekst--adresse li{
+    list-style: none;
+    padding-top: 16px;
+    padding-left: 25%;
+    display: flex;
+    flex-direction: column;
+    font-family: "myriad pro";
+}
